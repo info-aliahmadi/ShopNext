@@ -11,22 +11,6 @@ import WhatsApp from '@mui/icons-material/WhatsApp';
 import Place from '@mui/icons-material/Place';
 // import WaveContactImage from 'assets/images/wave-contact-page.svg';
 
-export async function generateMetadata({ params }) {
-  return {
-    title: 'Contact Us',
-    description: 'We deliver the best web solutions',
-    category: 'World-Class Web Development',
-
-    openGraph: {
-      title: 'Contact Us',
-      description: 'World-Class Web Development'
-    },
-    twitter: {
-      title: 'Contact Us',
-      description: 'World-Class Web Development'
-    }
-  };
-}
 export default async function Page({ params }) {
   return (
     <>
