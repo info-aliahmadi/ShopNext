@@ -9,7 +9,6 @@ import Typography from '@mui/material/Typography';
 import ContactForm from '../../_components/conract/ContactForm';
 import WhatsApp from '@mui/icons-material/WhatsApp';
 import Place from '@mui/icons-material/Place';
-// import WaveContactImage from 'assets/images/wave-contact-page.svg';
 
 export default async function Page({ params }) {
   return (
