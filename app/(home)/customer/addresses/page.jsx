@@ -22,6 +22,7 @@ export default async function Page({ params }) {
           height={{ xs: 300, sm: 300, md: 350, lg: 450, xl: 400 }}
         ></Box>
         <Container maxWidth="xl">
+
           <Grid
             container
             pb={{ xs: 10, sm: 10, md: 10, lg: 10, xl: 10 }}
@@ -38,7 +39,7 @@ export default async function Page({ params }) {
                     Contact
                   </Typography>
                   <Typography variant="body2" pt={2}>
-                    Have a question or need assistance? Contact us!
+                    Have a question or need assistance? Contact us
                   </Typography>
                   <Typography variant="body2" pt={2} sx={{ display: 'flex', alignItems: 'center' }}>
                     <EmailIcon sx={{ marginRight: '5px' }} /> info@onwavedesign.com
