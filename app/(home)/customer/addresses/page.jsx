@@ -36,7 +36,8 @@ export default async function Page({ params }) {
                     Contact
                   </Typography>
                   <Typography variant="h1" pt={2}>
-                    Contact
+
+                    Contact22
                   </Typography>
                   <Typography variant="body2" pt={2}>
                     Have a question or need assistance? Contact us
